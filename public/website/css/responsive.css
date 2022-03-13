@@ -1,0 +1,64 @@
+/*For -------- xs device same code -------- */
+
+@media(min-width: 275px) and (max-width: 767px){
+
+.main{
+    grid-template-columns:  3fr, 3fr, 3fr;
+    grid-gap: 1rem;
+}
+
+}/*End of 767px*/
+
+/*For -------- xs -------- device*/
+
+@media(min-width: 275px) and (max-width: 320px){
+
+
+
+}/*End of 320px*/
+
+@media(min-width: 321px) and (max-width: 480px){
+
+	
+}/*End of 480px*/
+
+@media(min-width: 481px) and (max-width: 640px){
+	.main{
+    grid-template-columns:  3fr, 3fr;
+    grid-gap: 1rem;
+}
+
+}/*End of 640px*/
+
+@media(min-width: 641px) and (max-width: 767px){
+
+	
+
+}/*End of 767px*/
+
+/*For -------- sm device --------*/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+	
+}/*End of 991px*/
+
+/*For -------- md device -------- */
+@media(min-width: 992px) and (max-width: 1024px){
+
+	
+	
+}/*End of 1024px*/
+
+@media(min-width: 1025px) and (max-width: 1199px){
+
+	
+}/*End of 1199px*/
+
+/*For -------- lg device -------- */
+@media(min-width: 1200px) and (max-width: 1920px){
+
+    
+    
+}/*End of 1024px*/

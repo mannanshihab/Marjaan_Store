@@ -1,0 +1,165 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url(font-awesome.min.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+.nav-div{
+    border-bottom: 2px solid #5A6268;
+}
+
+.navbar-nav{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.nav-item{
+    padding: .5rem;
+}
+
+.navbar-brand img{
+    width: 75px;
+
+} 
+.dropdown-menu a:hover{
+    color: red;
+    text-transform: capitalize;
+}
+.dropdown-menu a:active{
+    background-color: #fff;
+}
+
+.btn{
+    border-radius: 50px;
+}
+.btn-:hover {
+    color: red;
+}
+
+.head-text{
+    margin-left: 50px;
+}
+.card {
+    margin-top: 1rem;
+}
+span.rollover {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: .25rem;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+span.rollover:hover {
+    opacity: 0.9;
+    background: #333;
+    text-align: center;
+    padding-top: 50%;
+}
+.card p {
+    font-size: .7rem;
+    font-weight: bold;
+}
+#Contact, #about{
+    height: 500px;
+}
+
+/*service*/
+
+#service{
+    padding: 50px;
+}
+
+#service .fa-lg {
+    font-size: 3.3em;
+    margin-top: 35px;
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #5A6268;
+}
+
+footer .bottom-social-icons a {
+    color: #fff;
+    text-align: center;
+    width: 32px;
+    line-height: 32px;
+    border-radius: 0px;
+    background: #444;
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .bottom-social-icons a:hover{
+    background-color: #55ACEE;
+}
+.back-to-top {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin-top: 100px;
+}
+
+
+/*login*/
+
+.form {
+    margin: 1.2rem 0;
+}
+.text {
+    display: block;
+    margin-top: 0.3rem;
+    color: #888;
+}
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+}
+input{
+    font: inherit;
+}
+.social-input{
+    display: flex;
+}
+.form-group i{
+    padding: 0.5rem;
+    width: 4rem;
+}
+.text-primary {
+    color: black!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.btn-primary:hover {
+    color: #000;
+}
+
+.login, .register{
+    margin-left: 30rem;
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
